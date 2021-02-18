@@ -9,6 +9,4 @@
 * Modify GOGO.bat to choose your pool and configure the miner
 * You can launch GOGO.bat to start mining (or restart or wait 2AM)!
 
-* Built on PhoenixMiner 5.5c
-
-get updates on https://github.com/painteau/ETHmining
+Built on PhoenixMiner 5.5c. Get updates on https://github.com/painteau/ETHmining
