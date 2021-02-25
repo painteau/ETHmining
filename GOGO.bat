@@ -21,4 +21,3 @@ if "%ERRORLEVEL%"=="0" GOTO end
 GOTO start
 
 :end
-pause
