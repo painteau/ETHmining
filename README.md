@@ -2,7 +2,7 @@
  A project to automatically mine ETH
  
  ## How to
-* Install the last graphic card drivers
+* Install the last graphic card drivers on https://www.nvidia.fr/Download/index.aspx?lang=fr
 * Create a directory called "mining" in c:\
 * Copy all files to c:\mining
 * OPTIONAL : Choose to install at launch or at defined time
