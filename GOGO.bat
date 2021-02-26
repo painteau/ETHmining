@@ -1,6 +1,6 @@
 @echo off
 :start
-
+cls
 :: ON RECUPERE LES 8 PREMIERS CARACTERES DU NOM DU PC POUR L'IDENTIFIER SUR CRUXPOOL
 SET rig_name=%computername:~0,8%
 
@@ -17,6 +17,7 @@ if "%ERRORLEVEL%"=="0" GOTO end
 ::c:\mining\PhoenixMiner.exe -pool stratum+tcp://ethash.poolbinance.com:1800 -pool2 stratum+tcp://ethash.poolbinance.com:25 -wal NOMDUCOMPTEDEMINAGE.1
 
 :: ON REBOUCLE LE PROGRAMME EN CAS DE QUIT DU PROGRAMME
+echo RESTARTING
 GOTO start
 
 :end
