@@ -1,1 +1,0 @@
-SCHTASKS /CREATE /SC DAILY /TN "LaunchMining" /TR "C:\mining\GOGO.bat" /ST 02:00
